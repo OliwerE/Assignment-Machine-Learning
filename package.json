@@ -1,0 +1,33 @@
+{
+  "name": "a4-machine-learning",
+  "version": "1.0.0",
+  "description": "* In this assignment, you shall implement the Naïve Bayes machine learning algorithm and use it on some datasets.\r * You can use any programming language you like.\r * You shall present your application and code at an oral examination.\r * You are not required to build a REST web service for this assignment.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:2dv515/student/oe222ez/a4-machine-learning.git"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.5",
+    "eslint": "^8.15.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^46.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
